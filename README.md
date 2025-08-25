@@ -20,11 +20,7 @@
 
 Criação do schema e tabelas.
 ```SQL
--- Criação do schema
-CREATE SCHEMA IF NOT EXISTS sistema_locacao;
-SET search_path TO sistema_locacao;
 
--- Tabela PROPRIEDADE
 CREATE TABLE PROPRIEDADE (
     id_propriedade SERIAL PRIMARY KEY,
     tipo VARCHAR(100) NOT NULL,
@@ -35,7 +31,6 @@ CREATE TABLE PROPRIEDADE (
     data_criacao TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
--- Tabela INQUILINO
 CREATE TABLE INQUILINO (
     id_inquilino SERIAL PRIMARY KEY,
     cpf_inquilino VARCHAR(11) UNIQUE NOT NULL,
@@ -43,7 +38,6 @@ CREATE TABLE INQUILINO (
     email_inquilino VARCHAR(255) NOT NULL
 );
 
--- Tabela LOCACAO
 CREATE TABLE LOCACAO (
     id_locacao SERIAL PRIMARY KEY,
     id_inquilino INT NOT NULL,
@@ -59,7 +53,7 @@ CREATE TABLE LOCACAO (
 
 Inserção de registros.
 ```SQL
--- Inserção de propriedades
+
 INSERT INTO PROPRIEDADE (tipo, descricao, regiao, endereco, area_m2) 
 VALUES (
     'apartamento',
