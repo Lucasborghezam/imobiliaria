@@ -12,7 +12,7 @@
 | Item           | Valor        |
 |----------------|--------------|
 | Banco de Dados | PostgreSQL   |
-| Schema         | sistema_locacao |
+
 
 
 
