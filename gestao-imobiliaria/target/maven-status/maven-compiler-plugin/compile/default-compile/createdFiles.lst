@@ -1,0 +1,9 @@
+com/gestao/imobiliaria/model/Locacao.class
+com/gestao/imobiliaria/dao/DatabaseConnection.class
+com/gestao/imobiliaria/model/Inquilino.class
+com/gestao/imobiliaria/dao/InquilinoDAO.class
+com/gestao/imobiliaria/model/Propriedade.class
+com/gestao/imobiliaria/Main.class
+com/gestao/imobiliaria/dao/LocacaoDAO.class
+com/gestao/imobiliaria/dao/PropriedadeDAO.class
+com/gestao/imobiliaria/App.class

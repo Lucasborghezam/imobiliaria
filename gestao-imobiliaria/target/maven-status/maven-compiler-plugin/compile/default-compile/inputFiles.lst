@@ -1,0 +1,9 @@
+/home/ubuntu/gestao-imobiliaria/src/main/java/com/gestao/imobiliaria/Main.java
+/home/ubuntu/gestao-imobiliaria/src/main/java/com/gestao/imobiliaria/model/Locacao.java
+/home/ubuntu/gestao-imobiliaria/src/main/java/com/gestao/imobiliaria/dao/LocacaoDAO.java
+/home/ubuntu/gestao-imobiliaria/src/main/java/com/gestao/imobiliaria/dao/InquilinoDAO.java
+/home/ubuntu/gestao-imobiliaria/src/main/java/com/gestao/imobiliaria/App.java
+/home/ubuntu/gestao-imobiliaria/src/main/java/com/gestao/imobiliaria/model/Propriedade.java
+/home/ubuntu/gestao-imobiliaria/src/main/java/com/gestao/imobiliaria/model/Inquilino.java
+/home/ubuntu/gestao-imobiliaria/src/main/java/com/gestao/imobiliaria/dao/DatabaseConnection.java
+/home/ubuntu/gestao-imobiliaria/src/main/java/com/gestao/imobiliaria/dao/PropriedadeDAO.java
